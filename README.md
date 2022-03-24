@@ -1,108 +1,46 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<img src="https://cdn.pixabay.com/photo/2019/11/17/21/27/chips-4633492_960_720.jpg" width="1000" height="300"/> 
 
-Welcome USER_NAME,
+<h1><strong>Affiliate Games</strong> <i>Bringing The Luck To You!</i></h1>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<h2>Table of Contents</h2>
+      <ol type = "1">
+<li href=#Overview>Overview</li>
+<li>User Story</li>
+<li>What's been built</li>
+<li>Wireframes</li>
+<li>Pelimenary re-test</li>
+<li>Testing</li>
+<li>User Testing</li>
+<li>Validation</li>
+<li>Image Attribution</li>
+<li>Deployment</li>
+<li>Active Deployments</li>
+<li>Maintenance</li>
+<li>Future Development</li>
+      </ol>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<p target=Overview>Overview</p>
 
-## Gitpod Reminders
+This website was created to bring together some of the highest rated games of skill and chance for users who need an immersive experience while trying to change their odds. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+User Story
 
-`python3 -m http.server`
+Daniel is an ordinary guy. He works long hours and looks after his family and really enjoys letting off some steam by gambling, something about the indsutry has caught his imagination and he really enjoys the feeling of being a high roller even if hes not betting huge amounts. He does not spend a whole lot of money on gambling but he does enjoy games that are highly rated that have been developed well. The challenge he faces is the time it takes to find these games as hes not 100% sure where to always look, alot of his time that he could be using to play the games he likes he needs to look for them. 
 
-A blue button should appear to click: _Make Public_,
+This why we created Affiliate Games. Our team seek out the most highly rated games within the vendors we work with and are able to regularly place the games these vendors host with the highest rating on our site, we are the one stop site for all high level gaming needs. 
 
-Another blue button should appear to click: _Open Browser_.
+<p target=>What's Been Built</p>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The website is primarily a page of links to games from other vendors and creators who have trouble getting exposure or want to increase their customer base through other avenues. Also for people who want to take part in gambling and betting activity where they can access the best top rated games and connect with like-minded individuals with a shared view of changing the odds within their lives.
 
-A blue button should appear to click: _Make Public_,
+The website consists of 4 pages which tell the user:
+1. What we do and how it works
+2. Contact us
+3. List of links to games 
+4. And a signup page to register interest in having your games displayed
 
-Another blue button should appear to click: _Open Browser_.
+The website is built using HTML and CSS. Some media queries will be used to generate responsiveness on different devices.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+In the future, it is envisioned that the signup page will lead to a checkout where legal documents will be generated and potelial clients can make an initial payment to become an affiliate, also an ability for users to sign up and get alerts to be notified of when a new game has been added to the network. 
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Affiliates get paid for the traffic they bring to casino websites. There are several different models of rewarding the affiliates. 1) Revenue-share. With this model, affiliates get a percentage of the casino's net revenue generated by referred players.
